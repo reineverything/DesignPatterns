@@ -16,5 +16,6 @@ public class test {
         //FileInputStream的父类InputStream是一个抽象类，相当于快餐店
         //FileInputStream相当于炒饭，DataInputStream相当于鸡蛋，具体的装饰者
         //FileInputStream的父类FilterInputStream就是装饰者角色
+        //这是git测试
     }
 }
