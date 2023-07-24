@@ -3,6 +3,7 @@ package pattern.decorator;
 import java.io.DataInputStream;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 
 /**
  * @ClassName test
@@ -11,7 +12,7 @@ import java.io.FileNotFoundException;
  * @Instruction
  */
 public class test {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws IOException {
         DataInputStream dataInputStream = new DataInputStream(new FileInputStream("d:\\a.txt"));
         //FileInputStream的父类InputStream是一个抽象类，相当于快餐店
         //FileInputStream相当于炒饭，DataInputStream相当于鸡蛋，具体的装饰者
